@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
   <img src="docs/banner.png" alt="Wish Tracker: plan your pulls, know your odds, keep your history" width="100%">
 </p>
 
@@ -14,7 +14,8 @@
 
 <p align="center">
   A desktop app for <b>Genshin Impact</b>, <b>Honkai: Star Rail</b>, <b>Zenless Zone Zero</b> and <b>Wuthering Waves</b>.<br>
-  It tells you how many pulls you will have by the day you want to pull, and how likely you are to get what you are saving for.
+  It tells you how many pulls you will have by the day you want to pull, how likely you are to get what you are saving for,<br>
+  and what it takes to level them up once you have them.
 </p>
 
 ---
@@ -37,8 +38,21 @@ Each game gets its own theme, so the app feels like the game you are planning fo
 | **Shows your chances** | The odds of getting each character or weapon in your banner plan, using pity and the 50/50, for one copy or several. |
 | **Imports your history** | Finds your wish history on your PC and imports it, then fills in your pity for you. Also reads and writes UIGF and SRGF files from other trackers. |
 | **Tracks your luck** | Every 5-star with the pull it came on, 50/50 wins and losses, and how your average compares with the expected one. |
+| **Plans your level-ups** | Pick a character or weapon, where it is now and where you want it: level, ascension and every talent, trace, skill or Forte node. It lists every material, the EXP and the money that takes. |
+| **Keeps your inventory** | Type in the materials you own. Spare lower tiers count toward higher ones at 3 to 1, and the app tells you exactly what to craft in the game and what you still need to farm. |
 | **Knows the characters** | A browsable list of every character and weapon, with the ones you pulled marked by how many copies you have. One button refreshes it when a new version comes out. |
 | **Follows the game's clock** | Daily and weekly resets, patch dates and livestreams for your server, with "done" switches that turn themselves off after a reset. |
+
+## Plan a level-up
+
+1. Open the **Level-up planner** tab and click **Add character or weapon**.
+2. Set where it is now and where you want it. It starts at the maximum, so lower the targets you do not need.
+3. Open the **Inventory** tab and type how many of each listed material you have. Only materials your plans use are listed, with every tier of each one.
+4. Back on the planner, **Everything planned** adds all your plans together and shows what is short.
+
+**Custom characters and weapons.** In the add list, pick **Custom character or weapon**, name it and choose its rarity: every character or weapon of one rarity costs the same amounts. Then fill each material slot (talent book, boss drop, gem and so on) by picking its picture. The black **?** is for a material that is not in the game yet: type its name and it gets its own box on the Inventory tab.
+
+When spare lower tiers can cover a shortfall, the list says what to make, for example *Craft 9 Guide to Justice from 27 Teachings of Justice*. The numbers you typed are never changed. The cost of crafting itself (Mora, Credits, Dennies or Shell Credits) is not counted.
 
 ## Install
 
@@ -74,7 +88,7 @@ The link the game gives out expires after about a day, so open the history page 
 - Updating or reinstalling the app does not touch that file.
 - **Export backup** and **Import backup** in the top bar menu move your data to another PC.
 
-The app does go online to download character pictures, fonts, the character database, banner data and updates, and to ask the game's own servers for your history when you import.
+The app does go online to download character pictures, fonts, the character database, banner data, level-up costs and updates, and to ask the game's own servers for your history when you import.
 
 ## Questions
 
@@ -107,7 +121,8 @@ Not as an app. The installer is for Windows 10 and 11.
 Wish Tracker stands on data that the community keeps up to date:
 
 - [Lunaris](https://lunaris.moe) for Genshin Impact characters and weapons
-- [nanoka](https://hsr.nanoka.cc) for Honkai: Star Rail, Zenless Zone Zero and Wuthering Waves
+- [nanoka](https://hsr.nanoka.cc) for Honkai: Star Rail, Zenless Zone Zero and Wuthering Waves, and the level-up costs of all four games
+- [TurnBasedGameData](https://github.com/DimbreathBot/TurnBasedGameData) and [WutheringWaves_Data](https://github.com/Arikatsu/WutheringWaves_Data) for Star Rail and Wuthering Waves EXP tables
 - [paimon.moe](https://paimon.moe) for Genshin Impact banner and event dates
 - [Enka.Network](https://enka.network) for pictures and fallback data
 - [UIGF](https://uigf.org) for the shared wish-history file format

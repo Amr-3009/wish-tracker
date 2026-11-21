@@ -1,0 +1,6 @@
+# Only the README and its pictures go to GitHub; the app's code stays on this PC.
+# /* ignores everything in this folder; each ! line lets one thing back in.
+/*
+!/.gitignore
+!/README.md
+!/docs/
